@@ -61,26 +61,7 @@ pip install -r requirements.txt
 
 ## 作者
 
-dd
-
----
-
-【astrbot插件分享】QQ音乐一起听歌感知插件
-
-✨ 插件功能：
-能让你的 AI 实时感知你电脑端 QQ音乐 正在播放的歌曲和歌词。纯本地读取窗口标题，不截图，安全轻量。
-
-💡 效果体验：
-当你邀请 AI 一起听歌，或者问它“我们在听什么”时，它可以直接读取当前播放状态，陪你聊歌词、聊氛围。
-插件还自带一个极简的本地网页面板，可以实时显示当前歌曲和滚动歌词。
-
-🛠️ 使用方法：
-1. 将插件文件夹放入 AstrBot 的 data/plugins 目录下。
-2. 在终端运行 pip install -r requirements.txt 安装依赖。
-3. 重启 AstrBot，在电脑端打开 QQ音乐 播放歌曲即可。
-
-🔗 项目地址：
-https://github.com/Doreen1016/astrbot_plugin_qqmusic_together
+DD
 
 ---
 
