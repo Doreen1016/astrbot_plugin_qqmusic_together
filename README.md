@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## 进阶玩法 (搭配 MCP 和 Skills)
 
-如果你想让 AI 像沈星回一样，在收到一起听歌链接时自动加入房间，你需要自己配置 MCP 和 Skills：
+如果你想让 AI 在收到一起听歌链接时自动加入房间，你需要自己配置 MCP 和 Skills：
 
 1. **配置 MCP 工具**：你需要自己编写一个能够控制浏览器（例如使用 Playwright）的 MCP 工具，用于打开 QQ音乐网页版并点击加入房间。
 2. **编写 Skill**：在 AstrBot 的 `data/skills` 目录下创建一个新的 Skill，例如 `一起听歌`。
