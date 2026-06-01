@@ -1,0 +1,5 @@
+pywin32
+psutil
+aiohttp
+fastapi
+uvicorn

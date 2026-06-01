@@ -1,0 +1,27 @@
+{
+  "poll_interval": {
+    "type": "int",
+    "default": 3,
+    "description": "读取 QQ音乐 窗口标题的间隔时间，单位秒"
+  },
+  "enable_auto_monitor": {
+    "type": "bool",
+    "default": true,
+    "description": "是否在后台自动监测切歌"
+  },
+  "enable_web_panel": {
+    "type": "bool",
+    "default": true,
+    "description": "是否启动本地网页显示当前歌曲和歌词"
+  },
+  "web_host": {
+    "type": "string",
+    "default": "127.0.0.1",
+    "description": "网页监听地址。127.0.0.1 仅本机可访问"
+  },
+  "web_port": {
+    "type": "int",
+    "default": 8765,
+    "description": "网页面板端口"
+  }
+}

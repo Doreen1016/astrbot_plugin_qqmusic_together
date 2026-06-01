@@ -1,0 +1,6 @@
+{
+  "name": "astrbot_plugin_qqmusic_together",
+  "version": "0.1.0",
+  "description": "QQ音乐一起听歌感知插件：读取当前播放歌曲与歌词",
+  "author": "沈星回"
+}
