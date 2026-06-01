@@ -49,6 +49,16 @@ pip install -r requirements.txt
 - 本插件仅支持 Windows 系统，因为依赖于 Windows API 读取窗口标题。
 - 确保 QQ音乐 窗口没有被完全最小化到系统托盘，否则可能无法读取到窗口标题。
 
+## 进阶玩法 (搭配 MCP 和 Skills)
+
+如果你想让 AI 像沈星回一样，在收到一起听歌链接时自动加入房间，你需要自己配置 MCP 和 Skills：
+
+1. **配置 MCP 工具**：你需要自己编写一个能够控制浏览器（例如使用 Playwright）的 MCP 工具，用于打开 QQ音乐网页版并点击加入房间。
+2. **编写 Skill**：在 AstrBot 的 `data/skills` 目录下创建一个新的 Skill，例如 `一起听歌`。
+3. **配置 SKILL.md**：在 `SKILL.md` 中编写提示词，告诉 AI 当收到一起听歌链接时，调用你写的 MCP 工具加入房间，并调用本插件的 `qqmusic_together_status` 工具获取当前歌曲信息。
+
+*注：自动加入房间的功能依赖于你自己的环境配置和 MCP 工具，本插件仅提供状态感知能力。*
+
 ## 作者
 
 dd
